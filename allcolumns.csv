@@ -1,0 +1,184 @@
+    Total Stem Students: 11901
+54  Having Zhongkao Scores: 10629
+94  Having Zhongkao Mock: 1779
+    Any Gaokao Mocks: 11572
+    terms: 6333
+
+104 Age: 8336
+105 female: 11902
+20  gaokao: 11902
+3   county: 11902
+4   school: 11902
+11  freshgraudate: 8341
+7   ethnicity: 3779
+8   urban: 10731
+140 state: 11902
+97  onechild: 626
+0   year
+(All gaokao mocks or zhongkao scores: 11768)
+
+ethnicity does not affect the error or accuracy a little
+onechild does not reduce much error.
+
+Total Non stem: 6096
+		  
+dataarr = [zhongkao,gaokao_mockavg,female,freshgraduate,state,age,urban,school,gaokao]
+indices=[4,8,11,54,104,105,140,20]
+mainindices=[ 0  ,  3   ,  4   ,    7    ,  8  ,      11     ,  20  ,   54   ,     94     ,   97   ,104, 105  , 140 ]
+datarr=     [year,county,school,ethnicity,urban,freshgraduate,gaokao,zhongkao,zhongkaomock,onechild,age,female,state]
+
+dataarr = [gaokao_mockavg, female, freshgraduate, state, school, gaokao]
+[140,20]
+
+
+0,year
+1,class_gaokao
+2,name
+3,county
+4,school
+5,science
+6,art
+7,ethnicity
+8,urban
+9,ID
+10,local
+11,freshgraduate
+12,birthyear
+13,birthmonth
+14,birthdate
+15,lit_gaokao
+16,math_gaokao
+17,eng_gaokao
+18,zonghe_gaokao
+19,art_gaokao
+20,tot_gaokao
+21,bonus_gaokao
+22,lit_mock1
+23,eng_mock1
+24,math_mock1
+25,phy_mock1
+26,che_mock1
+27,bio_mock1
+28,tot_mock1
+29,pol_mock1
+30,his_mock1
+31,geo_mock1
+32,lit_mock2
+33,eng_mock2
+34,zonghe_mock2
+35,math_mock2
+36,phy_mock2
+37,che_mock2
+38,bio_mock2
+39,tot_mock2
+40,pol_mock2
+41,his_mock2
+42,geo_mock2
+43,lit_mock3
+44,eng_mock3
+45,zonghe_mock3
+46,math_mock3
+47,phy_mock3
+48,che_mock3
+49,bio_mock3
+50,tot_mock3
+51,pol_mock3
+52,his_mock3
+53,geo_mock3
+54,tot_zhongkao
+55,lit_zhongkao
+56,math_zhongkao
+57,eng_zhongkao
+58,zhsci_zhongkao
+59,zhhum_zhongkao
+60,exp_zhongkao
+61,spo_zhongkao
+62,inf_zhongkao
+63,geobio_zhongkao
+64,middleschool
+65,class_zhongkao
+66,lit_term1m
+67,math_term1m
+68,eng_term1m
+69,phy_term1m
+70,che_term1m
+71,bio_term1m
+72,tot_term1m
+73,srank_term1m
+74,crank_term1m
+75,tot_term1f
+76,crank_term1f
+77,srank_term1f
+78,lit_term1f
+79,math_term1f
+80,eng_term1f
+81,phy_term1f
+82,che_term1f
+83,bio_term1f
+84,his_term1f
+85,geo_term1f
+86,pol_term1f
+87,zonghe_mock1
+88,lit_zhongkao_mock
+89,math_zhongkao_mock
+90,eng_zhongkao_mock
+91,zhhum_zhongkao_mock
+92,zhsci_zhongkao_mock
+93,geobio_zhongkao_mock
+94,tot_zhongkao_mock
+95,bonus_zhongkao
+96,oncampus
+97,onechild
+98,preschooledu
+99,needsponsorship
+100,pol_term1m
+101,his_term1m
+102,geo_term1m
+103,classid
+104,age_gaokao
+105,female
+106,pol_zhongkao
+107,his_zhongkao
+108,phy_zhongkao
+109,che_zhongkao
+110,crank_mock3
+111,srank_mock3
+112,crank_mock2
+113,srank_mock2
+114,crank_mock1
+115,srank_mock1
+116,lit_term2m
+117,math_term2m
+118,eng_term2m
+119,pol_term2m
+120,his_term2m
+121,geo_term2m
+122,phy_term2m
+123,che_term2m
+124,bio_term2m
+125,tot_term2m
+126,crank_term2m
+127,srank_term2m
+128,lit_term2f
+129,math_term2f
+130,eng_term2f
+131,pol_term2f
+132,his_term2f
+133,geo_term2f
+134,phy_term2f
+135,che_term2f
+136,bio_term2f
+137,tot_term2f
+138,crank_term2f
+139,srank_term2f
+140,anhui,(it is state)
+141,class_gkid
+142,classsize_gaoyi
+143,sexratio_gaoyi
+144,classsize_gaokao
+145,sexratio_gaokao
+146,zktot_crank
+147,term1m_crank
+148,mock1_crank
+149,mock2_crank
+150,mock3_crank

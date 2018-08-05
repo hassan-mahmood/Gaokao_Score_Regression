@@ -1,0 +1,149 @@
+
+zhongkao and gaokao mock:
+Total len: 10433
+Mean Squared Error: 2601.3137561283884
+R2 score: 0.748153327134703
+
+
+zhongkao,gaokao and female
+Total len: 10433
+Mean Squared Error: 2601.3137561283884
+R2 score: 0.748153327134703
+
+
+dataarr = [zhongkao,gaokao_mockavg,female,county,gaokao]
+Total len: 10433
+Mean Squared Error: 2612.4892983841482
+R2 score: 0.7470713649423499
+
+
+dataarr = [zhongkao,gaokao_mockavg,female,county,school,gaokao]
+Total len: 10433
+Mean Squared Error: 2588.7025295489675
+R2 score: 0.7493742853706309
+
+
+
+dataarr = [zhongkao,gaokao_mockavg,female,school,gaokao]
+Total len: 10433
+Mean Squared Error: 2554.840274633651
+R2 score: 0.7526526658489748
+
+
+dataarr = [zhongkao,gaokao_mockavg,female,state,school,gaokao]
+Total len: 10433
+Mean Squared Error: 2554.840274633651
+R2 score: 0.7526526658489748
+
+dataarr = [zhongkao,gaokao_mockavg,female,state,urban,school,gaokao]
+Total len: 9819
+Mean Squared Error: 2563.634629061619
+R2 score: 0.7508094228816797
+
+dataarr = [zhongkao,gaokao_mockavg,female,state,urban,school,year,gaokao]
+Total len: 9819
+Mean Squared Error: 4102.092895677582
+R2 score: 0.6012681040897699
+
+
+dataarr = [zhongkao,gaokao_mockavg,female,freshgraduate,state,urban,school,year,gaokao]
+Total len: 6296
+Mean Squared Error: 1367.4555429457953
+R2 score: 0.8890431578061917
+
+
+dataarr = [zhongkao,gaokao_mockavg,female,freshgraduate,state,urban,school,gaokao]
+Total len: 6296
+Mean Squared Error: 1346.3262743133866
+R2 score: 0.8907576098316421
+
+
+dataarr = [zhongkao,gaokao_mockavg,female,freshgraduate,state,age,urban,school,gaokao]
+Total len: 6294
+Mean Squared Error: 1347.1849457906544
+R2 score: 0.8907489994293424
+
+
+dataarr = [zhongkao,gaokao_mockavg,female,freshgraduate,ethnicity,state,age,urban,school,gaokao]
+Total len: 3025
+Mean Squared Error: 1040.0158235287975
+R2 score: 0.9203968430731583
+
+
+dataarr2 = [zhongkao, gaokao_mockavg, female, freshgraduate, state, age, urban, school, gaokao]
+Total len: 3025
+Mean Squared Error: 1040.0158235287975
+R2 score: 0.9203968430731583
+
+
+
+dataarr = [zhongkao,gaokao_mockavg,female,freshgraduate,zhongkaomock,state,age,urban,school,gaokao]
+Total len: 1713
+Mean Squared Error: 1279.4979212235125
+R2 score: 0.8980764161863768
+
+
+dataarr2 = [zhongkao, gaokao_mockavg, female, freshgraduate, state, age, urban, school, gaokao]
+Total len: 1713
+Mean Squared Error: 1281.125268058622
+R2 score: 0.8979467832899173
+
+
+dataarr2 = [zhongkao, gaokao_mockavg, female, freshgraduate, onechild,state, age, urban, school, gaokao]
+Total len: 610
+Mean Squared Error: 1927.936100607437
+R2 score: 0.7106000197747224
+
+
+dataarr2 = [zhongkao, gaokao_mockavg, female, freshgraduate,state, age, urban, school, gaokao]
+Total len: 610
+Mean Squared Error: 1927.38993906157
+R2 score: 0.7106820033739318
+
+
+dataarr2 = [zhongkao, gaokao_mockavg, female, freshgraduate,terms,state, age, urban, school, gaokao]
+Total len: 2618
+Mean Squared Error: 1034.7479958570043
+R2 score: 0.9217325228620965
+
+
+dataarr2 = [zhongkao, gaokao_mockavg, female, freshgraduate,state, age, urban, school, gaokao]
+Total len: 2618
+Mean Squared Error: 1086.923862332528
+R2 score: 0.91778598375028
+
+with svr rbf
+Total len: 2618
+Mean Squared Error: 894.8714224696195
+R2 score: 0.9323126704473625
+
+
+dataarr2 = [zhongkao, gaokao_mockavg, female, freshgraduate,state, age, urban, school, gaokao]
+Total len: 6294
+Mean Squared Error: 1200.9326202027098
+R2 score: 0.9026094443936312
+
+
+
+
+
+-----------------------
+dataarr2 = [zhongkao, gaokao_mockavg, female, freshgraduate,state, age, urban, school, gaokao]
+Total len: 6294
+Mean Squared Error: 1200.9326202027098
+R2 score: 0.9026094443936312
+
+
+
+
+
+dataarr = [zhongkao,gaokao_mockavg,female,freshgraduate,state,age,urban,school,gaokao]
+
+dataarr = [gaokao_mockavg, female, freshgraduate, state, school, gaokao]
+with lasso
+
+dataarr = [gaokao_mockavg, female, state, school, gaokao]
+
+dataarr = [gaokao_mockavg, state, gaokao]
+
+
