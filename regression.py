@@ -80,3 +80,38 @@ if __name__=='__main__':
 
 
 
+
+    def get_ind_var(self,datagrid):
+        count = 0
+        x = []
+        y = []
+        for row in datagrid:
+            gaokao_mockavg = get_mock_average(row, [28, 39, 50])
+            zhongkao = get_from_row(row, 54)
+            gaokao = get_from_row(row, 20)
+            sum_3_subjects, x_subjects = get_subject_gaokao_scores(row)
+            terms = get_mock_average(row, [72, 76, 125, 137])
+            female = get_from_row(row, 105)
+            county = get_from_row(row, 3)
+            school = get_from_row(row, 4)
+            state = get_from_row(row, 140)
+            urban = get_from_row(row, 8)
+            age = get_from_row(row, 104)
+            onechild = get_from_row(row, 97)
+            freshgraduate = get_from_row(row, 11)
+            ethnicity = get_from_row(row, 7)
+            zhongkaomock = get_from_row(row, 94)
+            year = get_from_row(row, 0)
+            # female, freshgraduate, state, urban, school
+            dataarr = [gaokao_mockavg, gaokao]
+
+            # dataarr = [zhongkao, gaokao_mockavg, sum_3_subjects,female, freshgraduate, state, age, urban, school, x_subjects]
+            dataarr2 = dataarr
+            # dataarr2 = [zhongkao, gaokao_mockavg, female, freshgraduate,state, age, urban, school, gaokao]
+            # dataarr2 = [zhongkao, gaokao_mockavg, female, state, school, gaokao]
+            # dataarr2 = [zhongkao, terms,gaokao_mockavg, female,gaokao]
+            if (check_validity(dataarr)):
+                x.append(dataarr2[:-1])
+                y.append(dataarr2[-1])
+
+        return x, y
